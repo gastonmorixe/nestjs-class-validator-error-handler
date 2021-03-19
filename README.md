@@ -15,7 +15,7 @@ import * as DB from '@nestjs/mongoose'
 import * as GQL from '@nestjs/graphql'
 import * as mongoose from 'mongoose'
 import * as V from 'class-validator'
-import { ValidateSchema } from 'nestjs-class-validator-error-handler'
+import { ValidateSchema, Model } from 'nestjs-class-validator-error-handler'
 
 @GQL.ObjectType()
 @DB.Schema({
