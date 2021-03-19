@@ -7,7 +7,6 @@ export class ModelValidationError extends ApolloError {
   public path: any[]
   public name: string
   message = this.constructor.name
-  // public errors?: ApolloError[]
 
   constructor(
     path?: any[],
@@ -16,8 +15,6 @@ export class ModelValidationError extends ApolloError {
   ) {
     super(message, 'MODEL_VALIDATION_FAILED', extensions)
     this.path = path
-    // this.name = 'ModelValidationError'
-    // Object.defineProperty(this, 'name', { value: 'ValidationError' })
   }
 }
 
