@@ -1,6 +1,6 @@
 {
   "name": "nestjs-class-validator-error-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Error handler for NestJS models using class-validator library",
   "main": "index.ts",
   "scripts": {
