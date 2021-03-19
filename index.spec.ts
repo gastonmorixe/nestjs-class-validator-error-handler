@@ -1,6 +1,6 @@
 import * as DB from '@nestjs/mongoose'
 import * as GQL from '@nestjs/graphql'
-import * as mongoose from 'mongoose'
+import mongoose from 'mongoose'
 import * as V from 'class-validator'
 
 import { connectFakeMongo, disconnectFakeMongo } from './db-handler'
