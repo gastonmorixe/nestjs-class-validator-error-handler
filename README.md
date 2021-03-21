@@ -1,5 +1,5 @@
 # nestjs-class-validator-error-handler
-![Tests Workflow](https://github.com/gastonmorixe/nestjs-class-validator-error-handler/actions/workflows/node.js.yml/badge.svg)
+![Tests Workflow](https://github.com/gastonmorixe/nestjs-class-validator-error-handler/actions/workflows/tests.yml/badge.svg)
 
 GraphQL Error handler for [NestJS](https://github.com/nestjs/nest) models using [class-validator](https://github.com/typestack/class-validator)
 
