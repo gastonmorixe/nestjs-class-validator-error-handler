@@ -1,4 +1,6 @@
 # nestjs-class-validator-error-handler
+![Tests Workflow](https://github.com/gastonmorixe/nestjs-class-validator-error-handler/actions/workflows/node.js.yml/badge.svg)
+
 GraphQL Error handler for [NestJS](https://github.com/nestjs/nest) models using [class-validator](https://github.com/typestack/class-validator)
 
 *Note: this package is opinated to work along mongoose for now. With a few lines you can remove it as a dependency or it could be decoupled into two different decorators for those who do not use mongo/mongoose.*
