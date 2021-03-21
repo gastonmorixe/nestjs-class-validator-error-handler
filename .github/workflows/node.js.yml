@@ -13,12 +13,8 @@ jobs:
         node-version: [15.x]
     steps:
       - uses: actions/checkout@v2
-      - uses: borales/actions-yarn@v2.0.0
+      - uses: actions/setup-node@v2
         with:
-          cmd: install # will run `yarn install` command
-#       - uses: borales/actions-yarn@v2.0.0
-#         with:
-#           cmd: build # will run `yarn build` command
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: test # will run `yarn test` command
+          node-version: '15.x'
+      - run: yarn install --production=false
+      - run: yarn test
